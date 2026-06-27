@@ -103,6 +103,71 @@ An interactive Power BI–style dashboard was built covering:
 
 <img width="1490" height="751" alt="NETFLIX TITLE DASHBOARD" src="https://github.com/user-attachments/assets/e1bc55a0-885b-4016-a5b5-3a2a65397107" />
 
+# PROJECT 3 - WEEK 3
+# SALES DATASET (ADVENTUREWORKS LITE)
+Dataset: Sales Data Sample — wholesale order-line-level transactions for a scale-model vehicle distributor, covering products, customers, countries, and deal sizes across 2003–2005.
+
+## Goal
+Practice intermediate SQL for sales analytics — filtering, multi-metric aggregation, HAVING, and multi-dimensional breakdowns (time, geography, product, customer).
+
+## Skills Demonstrated
+
+- WHERE with multiple conditions + ORDER BY
+- GROUP BY with multiple aggregate functions per query
+- HAVING for post-aggregation filtering
+- COUNT(DISTINCT ...) for unique entity counts
+- Time-series breakdowns (YEAR_ID, MONTH_ID)
+- Multi-column GROUP BY for cross-tabulated metrics
+
+## Key Findings
+
+| Metric | Result | 
+| ------- | ------ | 
+| Total records | 2,823 line items |
+| Unique orders / customers / products / countries | 307 / 92 / 109 / 19 |
+| Total revenue | $8,290,886.79 |
+| Top market | USA — $2.99M–$3.63M (~3× next country, Spain) | 
+| Top product line | Classic Cars — $3.92M (2× next line) |
+| Top customer | Euro Shopping Channel — up to $912K, 26 orders | 
+| Peak month | November — $1.74M (80%+ above next-best month) | 
+| Order fulfillment rate | 90%+ of orders shipped successfully |
+
+### Notable insight
+November is a recurring seasonal peak across multiple years, and order value (~$32,680 average) is driven by line-item volume per order (~9 lines/order) rather than unusually large individual line items.
+
+##  Tools Used
+- SQL (MySQL / SQL Server syntax)
+- Microsoft Word for report documentation
+
+# PROJECT 3B - WEEK 3
+# Chinook Music Database
+## Dataset
+Chinook Database — a sample digital media store with artists, albums, tracks, genres, customers, and invoices.
+## Goal
+Practice fundamental-to-intermediate SQL (filtering, joins, aggregation, subqueries vs. JOIN, outer joins) by answering realistic store-management questions.
+## Skills Demonstrated
+- SELECT, WHERE, LIKE pattern matching
+- Aggregate functions: COUNT, AVG, SUM
+- GROUP BY / ORDER BY for ranked breakdowns
+- INNER JOIN and LEFT JOIN
+- Subquery vs. JOIN — same result, two approaches
+- LIMIT for top-N analysis
+
+## Key Findings
+| Metric | Result |
+| ----- | ------ |
+| Total customers | 59 |
+| Total artists | 275 |
+| Total genres | 25 | 
+| Top genre by track count | Rock — 1,297 tracks (2.2× the next genre) |
+| Top customer by spend | Helena Holý — $49.62 |
+| Customers with zero purchases | 0 (full customer engagement) | 
+| Most expensive track | "Battlestar Galactica: The Story So Far" — $1.99 |
+
+### Notable insight 
+TV/film soundtrack albums have far longer average track durations than music albums and carry double the standard unit price — pricing is tied to content length and type, not just genre.
+
+
 
 
 
@@ -113,4 +178,5 @@ An interactive Power BI–style dashboard was built covering:
 ## Akhimien Evelyn
 Data Analytics Intern — AnalystLab Africa Batch B
 
-LinkedIn: https://tinyurl.com/mpe7h358
+### LinkedIn: https://tinyurl.com/mpe7h358
+### Email: akhimienevelyn.ae@gmail.com
